@@ -1,0 +1,3 @@
+1. should change php-fpm start user, this user must has right to access to laravel project, we use root user. same is nginx
+2. laravel's stoage context must be set to write right
+3. nginx default conf must be changed, reference ../backup/defaut ../backup/default_online(after changed)
