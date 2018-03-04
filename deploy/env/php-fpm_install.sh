@@ -4,4 +4,4 @@
 apt-get install php-fpm
 
 ##start 
-php-fpm -D -R
+php-fpm -R -D
