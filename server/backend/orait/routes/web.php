@@ -23,7 +23,10 @@ Route::any('/api/data', 'DataController@data');
 Route::any('/api/dataDescription', 'DataController@dataDescription');
 Route::any('/api/upload', 'DataController@upload');
 Route::any('/api/timeChartData', 'DataController@timeChartData');
-Route::any('/api/kchartData', 'DataController@kchartData');
-
+Route::any('/api/kChartData', 'DataController@kChartData');
+Route::any('/api/kChartData', 'DataController@kChartData');
+Route::any('/api/accurayChartData', 'DataController@accurayChartData');
+Route::any('/api/errorChartData', 'DataController@errorChartData');
+Route::any('/api/exportPredictData', 'DataController@exportPredictData');
 
 Route::any('/api/executePredict', 'DrivenController@executePredict');
